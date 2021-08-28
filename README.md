@@ -1,4 +1,4 @@
-# dribbleshot_nutrition
+# dribbleshot_foodsub
 
 A new Flutter project.
 
