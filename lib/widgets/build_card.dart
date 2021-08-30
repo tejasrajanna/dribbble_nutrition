@@ -16,7 +16,7 @@ class BuildCard extends StatefulWidget {
 }
 
 class _BuildCardState extends State<BuildCard> {
-  String selectedCard='';
+  String selectedCard='WEIGHT';
 
   @override
   Widget build(BuildContext context) {
