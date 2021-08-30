@@ -1,3 +1,4 @@
+import 'package:dribbble_travel/screens/details_screen.dart';
 import 'package:flutter/material.dart';
 
 class BuildFoodItem extends StatelessWidget {
@@ -20,7 +21,14 @@ final String price;
      ),
       child: InkWell(
         onTap: () {
-        
+            Navigator.of(context).push(MaterialPageRoute(
+              builder: (context) => DetailsScreen(
+                heroTag: imgPath,
+                foodName: foodName,
+                foodPrice: price,
+                ),
+                ),
+              );
         },
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

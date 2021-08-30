@@ -1,5 +1,5 @@
 import 'package:dribbble_travel/widgets/build_food_item.dart';
-import 'package:dribbble_travel/widgets/footer.dart';
+import 'package:dribbble_travel/widgets/home_footer.dart';
 import 'package:flutter/material.dart';
 
 class ListFoodItems extends StatelessWidget {
@@ -42,7 +42,7 @@ class ListFoodItems extends StatelessWidget {
               ),
             ),
             ),
-          Footer()
+          HomeFooter()
           ],
         );
   }

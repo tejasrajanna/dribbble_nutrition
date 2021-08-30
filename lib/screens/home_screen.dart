@@ -1,5 +1,5 @@
-import 'package:dribbble_travel/widgets/header.dart';
-import 'package:dribbble_travel/widgets/heading.dart';
+import 'package:dribbble_travel/widgets/home_header.dart';
+import 'package:dribbble_travel/widgets/home_heading.dart';
 import 'package:dribbble_travel/widgets/list_food_items.dart';
 import 'package:flutter/material.dart';
 
@@ -19,9 +19,9 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Color(0xFF21BFBD),
       body: ListView(
         children: [
-      Header(), 
+      HomeHeader(), 
       SizedBox(height: 25,),
-      Heading(),
+      HomeHeading(),
       SizedBox(height: 40,),
       Container(
         height: MediaQuery.of(context).size.height - 185.0,
